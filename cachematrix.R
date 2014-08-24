@@ -1,4 +1,6 @@
-## Put comments here that give an overall description of what your
+## Programing Assigment 2
+## After being confused out of my mind I think I have what it's asked here.
+## Aug 24-2014
 ## functions do
 
 ## Write a short comment describing this function
