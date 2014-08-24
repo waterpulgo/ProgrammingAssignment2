@@ -1,7 +1,7 @@
 ## Programing Assigment 2
 ## After being confused out of my mind I think I have what it's asked here.
 ## Aug 24-2014
-
+## test run ok 
 makeCacheMatrix <- function(x = matrix()) {
 	# Validate you have the correct type of input
 	if (!is.matrix(x)) {    ## Just like when we check for is.NA
@@ -10,6 +10,7 @@ makeCacheMatrix <- function(x = matrix()) {
 		## found this gem in 
 		stop("try again")
 	}
+	
 	I <- NULL    ## I for Inverted Matrix
 	set <- function(y) { ##Initialize values for Matrix
 		x <- y
@@ -31,5 +32,5 @@ cacheSolve <- function(x, ...) {
 	Z <- x$get() ## Retrieve
 	I <- solve(Z, ...) ##solve recently retrieves Z
 	x$setinverse(I)
-	I
+	I   ## Prints the inverse Matrix of x
 }
